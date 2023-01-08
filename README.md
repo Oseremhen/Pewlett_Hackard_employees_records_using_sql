@@ -20,7 +20,7 @@ For the primary keys, verify that the column is unique. Otherwise, create a comp
 Be sure to create the tables in the correct order to handle the foreign keys.
 Import each CSV file into its corresponding SQL table.
 
-Data Analysis (Data_Analysis.sql file): 
+Data Analysis (Data_Analysis.sql file):
 
 List the employee number, last name, first name, sex, and salary of each employee.
 
