@@ -38,3 +38,5 @@ List each employee in the Sales and Development departments, including their emp
 
 List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
+![SQL_ERD](https://user-images.githubusercontent.com/106120403/212881096-b589d6cd-0ef0-4ea1-befe-3acacd22f869.png)
+
