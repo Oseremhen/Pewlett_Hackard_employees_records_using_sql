@@ -1,5 +1,6 @@
-# sql-challenge
-A research project about people whom the company employed during the 1980s and 1990s
+# A research project about people whom the company employed during the 1980s and 1990s
+
+<img width="536" alt="Screenshot 2023-01-21 at 6 45 02 AM" src="https://user-images.githubusercontent.com/106120403/213865480-f1008e96-72ee-4824-a3b5-424757973115.png">
 
 Project Summary:
 It’s been two weeks since you were hired as a new data engineer at Pewlett Hackard (a fictional company). Your first major task is to do a research project about people whom the company employed during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files.
@@ -7,20 +8,21 @@ For this project, you’ll design the tables to hold the data from the CSV files
 
 I performed data modeling, data engineering, and data analysis, respectively using SQL.
 
-This Challenge is divided into three parts: data modeling, data engineering, and data analysis.
+This analysis is divided into three parts: data modeling, data engineering, and data analysis.
+
 Data Modeling (ERD_Assignment_image file):
 
-Inspect the CSV files, and then sketch an Entity Relationship Diagram of the tables.
+I inspected the CSV files, and then sketched an Entity Relationship Diagram of the tables.
+
+![SQL_ERD](https://user-images.githubusercontent.com/106120403/212881096-b589d6cd-0ef0-4ea1-befe-3acacd22f869.png)
 
 Data Engineering (Data_Engineering.sql file):
 
-Use the provided information to create a table schema for each of the six CSV files. Be sure to do the following:
-Specify the data types, primary keys, foreign keys, and other constraints.
-For the primary keys, verify that the column is unique. Otherwise, create a composite key Links to an external site., which takes two primary keys to uniquely identify a row.
-Be sure to create the tables in the correct order to handle the foreign keys.
-Import each CSV file into its corresponding SQL table.
+I used the provided information to create a table schema for each of the six CSV files by specifing the data types, primary keys, foreign keys, and other constraints. I imported each CSV file into its corresponding SQL table.
 
 Data Analysis (Data_Analysis.sql file):
+
+Using PosgreSQL, I found the following with from joining the tables I created above.
 
 List the employee number, last name, first name, sex, and salary of each employee.
 
@@ -37,6 +39,4 @@ List each employee in the Sales department, including their employee number, las
 List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
 List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
-
-![SQL_ERD](https://user-images.githubusercontent.com/106120403/212881096-b589d6cd-0ef0-4ea1-befe-3acacd22f869.png)
 
